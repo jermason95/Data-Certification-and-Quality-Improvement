@@ -1,11 +1,10 @@
-![image001 (1)](https://user-images.githubusercontent.com/85593608/121298475-ef105380-c8c1-11eb-829d-c19b65795801.png)
 # Data Certification and Quality Improvement
 
 Since the success of the Portfolio Central Data Quality project (link), a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
 
 
 ### About
-The purpose of this project was to set up data standardization and monitoring by a process known as data set certification. This is the highest level of data governance that can be applied to a data set. Certification ensures that we know as much as we can know about the data.  It builds upon the artifacts necessary to authorize a data set to greatly expand our knowledge about the data.  Like authorization, it captures where the data lives and what it means, but also answers questions such as:
+The purpose of this project is to set up data standardization and monitoring by a process known as data set certification. This is the highest level of data governance that can be applied to a data set. It builds upon the artifacts necessary to authorize a data set to greatly expand our knowledge about the data.  It not only captures where the data lives and what it means, but also answers questions such as:
 
 •	What does the data look like?  (data profiling)
 
@@ -16,47 +15,45 @@ The purpose of this project was to set up data standardization and monitoring by
 
 
 #### Setup 
-now given taking a model and scaling out had to build a workflow model. technical documention. and shell scripts. (add pictures. driver loop) lkp table.alter relations on powerbi loop in terms. etc.
+Given I was tasked to scale out the data quality model from one software to ultimately all datasets at Barings, first it was crucial to setup the standard operating procedure/workflow. This included providing technical documention of the coding procedure (i.e. shell scripts of the drivers and loops) and updating the lkp tables and relationships in powerbi for optimal scalability. 
 
-scaling out---shell scripts needed to optimize workflow as new systems added-documentation technical
+Here is an outline of the designed workflow
 ![image](https://user-images.githubusercontent.com/85593608/121294851-12d09b00-c8bc-11eb-8acf-791306d07253.png)
 
 
 #### 1. What does the data look like? 
-    Having the correct terminolgy is the first key to having an accurate, and more importantly useful, dataset
+    Having the correct terminolgy is the first key to having an accurate, and more importantly useful data
 
-Barings adopted the data profiling tool Collibra, which will let users know where they should go to consume data and exactly what that data means.
-This includes:
-definitions
-domains
-data owners
-reposible data steward etc
+In a company that holds over 25,000 assets and stores data on companies, clients, properties, indexes, and countries, ensuring everyone is on the same page about what a term means is crucial. Especially what it means in a relational contex.To solve this problem, I worked with the Data Steward team to learn the data profiling tool Collibra, to upload important information on the data we are checking for data quality. This will ensure users know where they should go to consume data and exactly what that data means.
+This includes: definitions, domains, data owners, responsible data stewards, etc.
  
  ![image](https://user-images.githubusercontent.com/85593608/121295233-af933880-c8bc-11eb-929b-9bca7a71ed57.png)
  
-In a company that holds over 25,000 assets and stores data on companies, clients, properties, etc. across eight different software- requires that everyone is on the same page about what a term means, especially what it means in a relational contex.
 
- This is often a process of discovery to identify competing sources of the truth, analysis of the data to determine overlap, and decision-making with Data Owners to identify a single source of truth if there are multiple potential sources. 
 
  
 
 
 
 2. •	How did the data get there? (data lineage)
-establish Workflows
-        ○ Audit Trail
-Location Alignment identifcation
-correlation how well matches.
-Data Matching
+	For any big enterprise, finding where you data is can be a daunting task
+
+In order to ensure a dataset is used properly knowing how to easily access your data is crucial. Not only from a business decision making standpoint, but to ensure that an audit trail can be followed to comply with government regulation. Many times datasets overlap, so is crucial to have a sorce of truth in discrepancies. Without a source of truth admins are at a much high risk to report inaccurate data, which negatively impacts business decisions 
+
+Through our data matching we were able to identity which database, application, file, table, and even column name all of the fields. 
+
+
+
+
+
+Location Alignment Identifcation:
+
 ![image](https://user-images.githubusercontent.com/85593608/121295111-82468a80-c8bc-11eb-9c35-e6e49b5d4c09.png)
+
+Data Match Correlation:
 
 ![image](https://user-images.githubusercontent.com/85593608/121295172-968a8780-c8bc-11eb-9f8a-ad7aa49863c9.png)
   
-•
-•	Data lineage traces data back to original sources through source to target mappings.  This capability automatically parses the code used to move and store data to inform users where their data came from.  This information is especially useful when investigating root causes for data quality problems.
-
-
-which database, application, or file contains the right informatio
 
 
 
