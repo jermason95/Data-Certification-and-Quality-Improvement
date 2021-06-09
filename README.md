@@ -14,17 +14,18 @@ The purpose of this project is to set up data standardization and monitoring by 
 
 
 
-#### Setup 
-Given I was tasked to scale out the data quality model from one software to ultimately all datasets at Barings, first it was crucial to setup the standard operating procedure/workflow. This included providing technical documention of the coding procedure (i.e. shell scripts of the drivers and loops) and updating the lkp tables and relationships in powerbi for optimal scalability. 
+### Setup 
+Given I was tasked to scale out the data quality model from one software, Portfolio Central, to ultimately all datasets at Barings, first it was crucial to setup the standard operating procedure/workflow. This included providing technical documention of the coding procedure (i.e. shell scripts of the drivers and loops) and updating the lkp tables and relationships in powerbi for optimal scalability. 
 
-Here is an outline of the designed workflow
+Here is an outline of the designed workflow:
+
 ![image](https://user-images.githubusercontent.com/85593608/121294851-12d09b00-c8bc-11eb-8acf-791306d07253.png)
 
 
 #### 1. What does the data look like? 
-    Having the correct terminolgy is the first key to having an accurate, and more importantly useful data
+    Having the correct terminolgy is the first key to having an accurate, and more importantly useful dataset
 
-In a company that holds over 25,000 assets and stores data on companies, clients, properties, indexes, and countries, ensuring everyone is on the same page about what a term means is crucial. Especially what it means in a relational contex.To solve this problem, I worked with the Data Steward team to learn the data profiling tool Collibra, to upload important information on the data we are checking for data quality. This will ensure users know where they should go to consume data and exactly what that data means.
+In a company that holds over 25,000 assets and stores data on companies, clients, properties, indexes, and countries, ensuring everyone is on the same page about what a term means is crucial. Especially what it means in a relational contex. To solve this problem, I worked with the Data Steward team to learn the data profiling tool Collibra and uploaded important information on the additional datasets. This will ensure users know where they should go to consume data and exactly what that data means.
 This includes: definitions, domains, data owners, responsible data stewards, etc.
  
  ![image](https://user-images.githubusercontent.com/85593608/121295233-af933880-c8bc-11eb-929b-9bca7a71ed57.png)
@@ -35,7 +36,7 @@ This includes: definitions, domains, data owners, responsible data stewards, etc
 
 
 
-2. •	How did the data get there? (data lineage)
+#### 2. How did the data get there? (data lineage)
 	For any big enterprise, finding where you data is can be a daunting task
 
 In order to ensure a dataset is used properly knowing how to easily access your data is crucial. Not only from a business decision making standpoint, but to ensure that an audit trail can be followed to comply with government regulation. Many times datasets overlap, so is crucial to have a sorce of truth in discrepancies. Without a source of truth admins are at a much high risk to report inaccurate data, which negatively impacts business decisions 
