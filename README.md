@@ -1,3 +1,4 @@
+![image001 (1)](https://user-images.githubusercontent.com/85593608/121298475-ef105380-c8c1-11eb-829d-c19b65795801.png)
 # Data Certification and Quality Improvement
 
 Since the success of the Portfolio Central Data Quality project (link), a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
@@ -68,6 +69,7 @@ ESG (Environmental, Social, Governance) Scores
 SFR () 
 can now be seen in the dashboard.
 Screenshots.
+![image001 (1)](https://user-images.githubusercontent.com/85593608/121298489-f7688e80-c8c1-11eb-9051-ae9bdfbaa52a.png)
 
 
 
