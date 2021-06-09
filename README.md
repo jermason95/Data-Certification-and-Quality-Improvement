@@ -1,6 +1,6 @@
 # Data Certification and Quality Improvement
 
-Since the success of the Portfolio Central Data Quality project (link), a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
+Since the success of the Portfolio Central Data Quality project (README.md), a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
 
 
 ### About
