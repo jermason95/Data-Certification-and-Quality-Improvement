@@ -39,9 +39,9 @@ This includes: definitions, domains, data owners, responsible data stewards, etc
 #### 2. How did the data get there? (data lineage)
 	For any big enterprise, finding where you data is can be a daunting task
 
-In order to ensure a dataset is used properly knowing how to easily access your data is crucial. Not only from a business decision making standpoint, but to ensure that an audit trail can be followed to comply with government regulation. Many times datasets overlap, so is crucial to have a sorce of truth in discrepancies. Without a source of truth admins are at a much high risk to report inaccurate data, which negatively impacts business decisions 
+In order to ensure a dataset is used properly, knowing how to easily access your data is crucial. Not only from a business decision making standpoint, but to ensure that an audit trail can be followed to comply with government regulation. Many times datasets overlap, so is crucial to have a source of truth if (when) discrepancies occur. Without a source of truth admins are at a much high risk to report inaccurate data, which negatively impacts business decisions.
 
-Through our data matching we were able to identity which database, application, file, table, and even column name all of the fields. 
+Through our data matching we were able to identity which database, application, file, table, and even column name all the fields are located in for the addtional datasets.
 
 
 
@@ -58,36 +58,36 @@ Data Match Correlation:
 
 
 
-4. •	Is the data fit for purpose? 
-	Data profiling, which can also be done through Collibra, examines each column within a data set and compiles facts about it – data type, distribution of data values, maximums, minimums, and means.  Profiling tells users what the data looks like without judging whether it is good or bad.  
+#### 4. Is the data fit for purpose? 
 
-However, to judge if it's good or bad, an expansion of the PowerBi Dashboard. Details on the dashboard can be seen here.
+Data profiling, which can also be done through Collibra, examines each column within a data set and compiles facts about it – data type, distribution of data values, maximums, minimums, and means. Profiling tells users what the data looks like without judging whether it is good or bad.  
+
+However, to judge if it's good or bad, an expansion of the PowerBi Dashboard was created. Details on the functionaliy of the dashboard can be seen here (link)
+
+The two additional datasets at this point are:
 
 ESG (Environmental, Social, Governance) Scores
-SFR () 
-can now be seen in the dashboard.
-Screenshots.
+
+![image](https://user-images.githubusercontent.com/85593608/121302165-46fd8900-c8c7-11eb-9f69-8e60ff3336b9.png)
+
+EU Regulatory reporting such as RSFDR (Sustainable Finance Disclosure Regulation)
+![image](https://user-images.githubusercontent.com/85593608/121302315-83c98000-c8c7-11eb-907e-711775666911.png)
+
+
+Here is an example how you can quickly derive correlation metrics by drilling down on a portfolio name.
 ![image001 (1)](https://user-images.githubusercontent.com/85593608/121298489-f7688e80-c8c1-11eb-9051-ae9bdfbaa52a.png)
 
 
 
 
 
-Correlation metrics can be quickly derieved multiple terms drilled by investment teams,
-groups of terms.
+### What I Learned
 
+**Data Analysis Tools** → Collibra, T-SQL
 
+**Data Visualization Tools** → Microsoft PowerBI DAX, Dynamic Functions
 
-5. analyzing controls
-
-•	Regulatory, Contractual, and other Obligations: Do we have adequate controls over our data with respect to our regulators, vendor contracts, and corporate ethos?  Some examples:
-•	
-•	Appropriate access: Are the data values only accessible by users that have a right to see them?
-•	Data retention: How long can we keep the data?
-•	Distribution: Are we allowed to distribute the data we receive and if so, are there limitations?  
-•	Ethical sourcing: Is the data we are using collected in an ethical manner?
-•	Appropriate usage: Are we using the data for the intended purpose?  If not, does this new use case create any contractual or ethical concerns?
-
+**Soft Skills and Critical Thinking** → Technical Documentation, Data Regulation, Best Practices
 
 
 
