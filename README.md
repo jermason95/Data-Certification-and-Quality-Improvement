@@ -1,6 +1,6 @@
 # Data Certification and Quality Improvement
 
-Since the success of the Portfolio Central Data Quality project (README.md), a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
+Since the success of the Portfolio Central Data Quality project, a new intitative at Barings was started called "Trust your Data", which involved standardizing other datasets and scaling out the Microsoft PowerBI dashboard. 
 
 
 ### About
@@ -62,7 +62,7 @@ Data Match Correlation:
 
 Data profiling, which can also be done through Collibra, examines each column within a data set and compiles facts about it – data type, distribution of data values, maximums, minimums, and means. Profiling tells users what the data looks like without judging whether it is good or bad.  
 
-However, to judge if it's good or bad, an expansion of the PowerBi Dashboard was created. Details on the functionaliy of the dashboard can be seen here (link)
+However, to judge if it's good or bad, an expansion of the PowerBi Dashboard was created. Details on the functionaliy of the dashboard can be seen here (https://github.com/jermason95/Data-Quality-for-Portfolio-Central/blob/3a28b320f3563ef9e5d01016353d0d970c47e99e/README.md)
 
 The two additional datasets at this point are:
 
